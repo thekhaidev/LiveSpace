@@ -1,12 +1,16 @@
 import React from 'react'
-import Spotify from './components/Spotify.jsx'
+import Spotify from './components/Spotify.jsx';
+import Twitter from './components/Twitter.jsx';
 
 const App = () => {
   return (
-    <h1>
+   <div>
+      <h1>
      Hello World
-     <Spotify />
     </h1>
+     <Spotify />
+     <Twitter />
+   </div>
   )
 }
 
