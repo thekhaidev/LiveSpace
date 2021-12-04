@@ -33,16 +33,20 @@ const Medium = () => {
 
 
   return (
-    <h1>
-
+    <div>
+      <h1>
+        Blog
+      </h1>
       {blog.entries.map((post, index) => {
-        return (<div style={{border: "1px solid black"}}>
+        return (
+          <div style={{border: "1px solid black"}}>
           <h5><a href={post.link} target='_blank'>{post.title}</a> </h5>
-        </div>)
+        </div>
+        )
       })}
       {console.log(blog)}
 
-    </h1>
+    </div>
   )
 }
 
