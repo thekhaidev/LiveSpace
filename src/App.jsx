@@ -1,6 +1,7 @@
 import React from 'react'
 import Spotify from './components/Spotify.jsx';
 import Twitter from './components/Twitter.jsx';
+import Medium from './components/Medium.jsx'
 
 const App = () => {
   return (
@@ -28,7 +29,7 @@ const App = () => {
         </div>
         <div className='col-md-8'>
         <div style={{height:'600px', border: '1px solid black'}}>
-        Blog Holder
+        <Medium />
         </div>
         </div>
       </div>
