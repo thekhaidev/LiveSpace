@@ -5,11 +5,49 @@ import Twitter from './components/Twitter.jsx';
 const App = () => {
   return (
    <div>
-      <h1>
-     Hello World
-    </h1>
-     <Spotify />
-     <Twitter />
+    <div className='container'>
+      <div className='row'>
+        <div className='col-md-4'>
+          <h2>
+            Profile Holder
+          </h2>
+        </div>
+        <div className='col-md-8'>
+        <Twitter />
+        </div>
+      </div>
+    </div>
+    <div className='container'>
+      <div className='row'>
+
+        <div className='col-md-4'>
+          <div style={{height:'300px', border: '1px solid black'}}>
+            Contact Holder
+          </div>
+          <Spotify />
+        </div>
+        <div className='col-md-8'>
+        <div style={{height:'600px', border: '1px solid black'}}>
+        Blog Holder
+        </div>
+        </div>
+      </div>
+    </div>
+    <div className='container'>
+      <div className='row'>
+
+        <div className='col'>
+          <div style={{height:'300px', border: '1px solid black'}}>
+            Interests Holder
+          </div>
+        </div>
+        <div className='col'>
+        <div style={{height:'300px', border: '1px solid black'}}>
+        About Holder
+        </div>
+        </div>
+      </div>
+      </div>
    </div>
   )
 }
