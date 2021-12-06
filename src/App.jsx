@@ -1,10 +1,15 @@
 import React, { useState } from 'react'
 import Spotify from './components/Spotify.jsx';
 import Twitter from './components/Twitter.jsx';
+import NESTwitter from './components/nes/NESTwitter.jsx';
 import Medium from './components/Medium.jsx';
 import Profile from './components/Profile.jsx';
+import NESProfile from './components/nes/NESProfile.jsx';
 import Contacts from './components/Contacts.jsx';
+import NESContacts from './components/nes/NESContacts.jsx';
+
 import Interests from './components/Interests.jsx';
+import NESInterests from './components/nes/NESInterests.jsx';
 import About from './components/About.jsx';
 import NESAbout from './components/nes/NESAbout.jsx'
 import Nav from './components/Nav.jsx';
@@ -33,26 +38,25 @@ const App = () => {
             <div className='col-md-4'>
               <div style={{ border: "1px solid black", height: "300px" }}>
                 <h2>
-                  <Profile />
+                  <NESProfile />
                 </h2>
               </div>
             </div>
             <div className='col-md-8'>
-              <Twitter />
+              <NESTwitter />
             </div>
           </div>
         </div>
         <div className='container'>
           <div className='row'>
-
             <div className='col-md-4'>
               <div>
-                <Contacts />
+                <NESContacts />
               </div>
               <Spotify />
             </div>
             <div className='col-md-8'>
-              <div >
+              <div className="nes-container is-dark">
                 <Medium />
               </div>
             </div>
@@ -63,7 +67,7 @@ const App = () => {
 
             <div className='col'>
               <div>
-                <Interests />
+                <NESInterests />
               </div>
             </div>
             <div className='col'>
