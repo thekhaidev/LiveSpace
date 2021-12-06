@@ -27,7 +27,6 @@
     "react-router": "^6.0.2",
     "rss-to-json": "^2.0.2",
     "styled-components": "^5.3.3",
-    "terminal.css": "^0.7.2",
     "wired-elements": "^3.0.0-rc.6"
   },
   "devDependencies": {

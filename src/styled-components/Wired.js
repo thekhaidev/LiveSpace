@@ -7,6 +7,10 @@ background-size: cover;
   height: 100%;
   overflow: hidden;
 
+a {
+  color: black
+}
+
 `
 
 export default Base;

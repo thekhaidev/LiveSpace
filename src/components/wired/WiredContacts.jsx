@@ -1,7 +1,7 @@
 import React from 'react';
 
 const WiredContacts = () => (
-  <wired-card className="container" style={{ height: '300px', border: '1px solid black', width: "375px" }}>
+  <wired-card className="container" style={{ width: "375px" }}>
     <h5>
       Top 8 Social Media
     </h5>
