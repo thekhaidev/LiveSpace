@@ -1,7 +1,7 @@
 import React from 'react';
 
-const About = () => (
-  <div className="nes-container" style={{height:'300px', border: '1px solid black'}}>
+const NESAbout = () => (
+  <div className="nes-container is-dark">
   <h5>About</h5>
   <p>
     Anxious Millenial Eboy
@@ -13,4 +13,4 @@ const About = () => (
   </div>
 )
 
-export default About;
+export default NESAbout;

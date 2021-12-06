@@ -5,18 +5,20 @@ const Interests = () => (
     <h5>
       Interests
     </h5>
-      <ul>
+    <ul>
+    <li>
         Looking Good
-      </ul>
-      <ul>
+      </li>
+      <li>
         Feeling Good
-      </ul>
-      <ul>
+      </li>
+      <li>
         Naps
-      </ul>
-      <ul>
+      </li>
+      <li>
         Hating Capitalism
-      </ul>
+      </li>
+    </ul>
   </div>
 )
 
