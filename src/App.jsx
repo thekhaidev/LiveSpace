@@ -3,6 +3,7 @@ import Spotify from './components/Spotify.jsx';
 import Twitter from './components/Twitter.jsx';
 import Medium from './components/Medium.jsx';
 import Profile from './components/Profile.jsx';
+import Contacts from './components/Contacts.jsx';
 
 const App = () => {
   return (
@@ -26,7 +27,7 @@ const App = () => {
 
         <div className='col-md-4'>
           <div style={{height:'300px', border: '1px solid black'}}>
-            Contact Holder
+            <Contacts />
           </div>
           <Spotify />
         </div>
