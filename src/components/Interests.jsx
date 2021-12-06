@@ -5,7 +5,6 @@ const Interests = () => (
     <h5>
       Interests
     </h5>
-    <list>
       <ul>
         Looking Good
       </ul>
@@ -18,7 +17,6 @@ const Interests = () => (
       <ul>
         Hating Capitalism
       </ul>
-    </list>
   </div>
 )
 

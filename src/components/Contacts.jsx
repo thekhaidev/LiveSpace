@@ -26,7 +26,7 @@ const Contacts = () => (
         <a href="https://github.com/asianguy76?tab=repositories"><i className="fab fa-github"></i> Github </a>
         </div>
         <div className="col">
-        <a href="https://discordapp.com/users/asianguy#0076/"><i class="fab fa-discord"></i> Discord</a>
+        <a href="https://discordapp.com/users/asianguy#0076/"><i className="fab fa-discord"></i> Discord</a>
         </div>
       </div>
       <div className="row h-25">
@@ -34,7 +34,7 @@ const Contacts = () => (
        <a href="mailto:takecareofknives@gmail.com"> <i className="fas fa-envelope-square"></i> Email</a>
         </div>
         <div className="col">
-     <a href="http://m.me/asianguy76">   <i class="fab fa-facebook-messenger"></i> Messenger</a>
+     <a href="http://m.me/asianguy76">   <i className="fab fa-facebook-messenger"></i> Messenger</a>
         </div>
       </div>
   </div>
