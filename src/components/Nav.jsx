@@ -14,7 +14,7 @@ const Nav = ({ click }) =>{
         <a class="nav-link" onClick={() => click('nes')} >NES</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">PSOne</a>
+        <a class="nav-link" onClick={() => click('wired')}>Wired</a>
       </li>
     </ul>
   </div>
