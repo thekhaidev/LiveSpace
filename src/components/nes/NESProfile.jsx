@@ -18,7 +18,7 @@ const NESProfile = () => (
         <img src={Pic} style={{ height: "300%", width: "200%", position: "absolute", right: "-45%", top: "15%" }} alt="Profile Pic" />
       </div>
       <div className="col-xs-4 col-md-8">
-        <p style={{ fontSize: "12px", position: "absolute", right: "30%", top: "100%" }}>
+        <p style={{ fontSize: "12px", position: "absolute", right: "10%", top: "100%" }}>
           Male
           <br />
           32 Years Old
