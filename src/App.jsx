@@ -4,6 +4,8 @@ import Twitter from './components/Twitter.jsx';
 import Medium from './components/Medium.jsx';
 import Profile from './components/Profile.jsx';
 import Contacts from './components/Contacts.jsx';
+import Interests from './components/Interests.jsx';
+import About from './components/About.jsx';
 
 const App = () => {
   return (
@@ -26,13 +28,13 @@ const App = () => {
       <div className='row'>
 
         <div className='col-md-4'>
-          <div style={{height:'300px', border: '1px solid black'}}>
+          <div>
             <Contacts />
           </div>
           <Spotify />
         </div>
         <div className='col-md-8'>
-        <div style={{height:'600px', border: '1px solid black'}}>
+        <div >
         <Medium />
         </div>
         </div>
@@ -42,13 +44,13 @@ const App = () => {
       <div className='row'>
 
         <div className='col'>
-          <div style={{height:'300px', border: '1px solid black'}}>
-            Interests Holder
+          <div>
+            <Interests />
           </div>
         </div>
         <div className='col'>
-        <div style={{height:'300px', border: '1px solid black'}}>
-        About Holder
+        <div>
+        <About />
         </div>
         </div>
       </div>
