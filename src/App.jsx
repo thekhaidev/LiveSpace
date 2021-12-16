@@ -43,9 +43,9 @@ const App = () => {
           Hello World
         </h1>
         <p>
-          Welcome to my mvp.
+          Welcome to myDrip a site where you can connect your social media to show who you are.
         </p>
-        <button onClick={() => setStyle('base')}>Click Me</button>
+        <button onClick={() => setStyle('base')}>Enter</button>
       </Base>
     )
   }
